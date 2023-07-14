@@ -3,7 +3,7 @@
 #include <string>
 
 
-bool open_read_file(std::ifstream &file, const char * file_name);
+bool  open_read_file(std::ifstream &file, const char * file_name);
 bool open_write_file(std::ofstream &file, const char * file_name);
 void write_file(std::ofstream &file_w, std::ifstream &file_r_1, std::ifstream &file_r_2);
 std::string name(int number);
